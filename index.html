@@ -168,16 +168,20 @@
 
         .btn-gold {
             background: var(--gold-gradient);
-            color: #0b132b;
-            box-shadow: 0 4px 15px rgba(197, 160, 89, 0.25);
+            color: #070d1a;
+            box-shadow: 0 4px 18px rgba(197, 160, 89, 0.28);
             grid-column: span 2;
-            padding: 14px;
-            font-size: 13px;
+            padding: 15px;
+            font-size: 13.5px;
+            font-weight: 700;
+            letter-spacing: 0.3px;
+            position: relative;
+            overflow: hidden;
         }
 
         .btn-gold:hover {
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(197, 160, 89, 0.4);
+            box-shadow: 0 6px 20px rgba(197, 160, 89, 0.45);
         }
 
         .btn-glass {
@@ -259,6 +263,33 @@
             font-size: 13px;
             font-weight: 500;
             color: var(--text-primary);
+        }
+
+        /* Integrated Dark Glass Footer */
+        .card-footer {
+            margin-top: auto;
+            background: rgba(4, 8, 18, 0.9);
+            border-top: 1px solid var(--card-border);
+            padding: 18px 24px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .footer-brand {
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            color: var(--gold-solid);
+            text-transform: uppercase;
+        }
+
+        .footer-copy {
+            font-size: 10px;
+            color: var(--text-secondary);
+            opacity: 0.7;
         }
     </style>
 </head>
